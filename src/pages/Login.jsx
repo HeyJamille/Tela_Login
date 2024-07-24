@@ -6,8 +6,8 @@ import icon from '../assets/icon.png';
 
 const Login = () => {
   return (
-		<article className="flex flex-row  bg-[#1E1E1E] w-full h-screen lg:justify-center lg:items-center"> 
-			<form className="flex flex-col gap-5 p-5 lg:m-20 lg:px-[150px] lg:py-10 h-screen w-full lg:w-[45%] lg:h-auto lg:bg-[#24221F]">
+		<article className="flex flex-row bg-[#1E1E1E] w-full h-screen sm:justify-center sm:items-center"> 
+			<form className="flex flex-col gap-5 p-5 h-screen w-full sm:w-[500px] lg:m-20 lg:px-[100px] lg:py-10 lg:w-[40%] lg:h-auto lg:bg-[#24221F]">
 				<section>
 					<img src={icon} alt="imagem"/>
 					<h2>camp.in</h2>
@@ -44,7 +44,7 @@ const Login = () => {
 				</section>
 			</form>
 
-			<img className="hidden lg:block h-full w-[55%]" src={image} alt="imagem"/>
+			<img className="hidden lg:block lg:h-full lg:w-[60%]" src={image} alt="imagem"/>
 		</article>
   )
 }
