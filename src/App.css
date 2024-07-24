@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  color: white;
+  font-size: 25px;
+}
+
+p, label {
+  color: #AFB6C2;
+  font-size: 15px;
+}
+
+#yellowColor {
+  color: #FFC632;
+}
