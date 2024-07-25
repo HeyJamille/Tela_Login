@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 h1 {
   color: white;
   font-size: 25px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
 }
 
 p, label {
